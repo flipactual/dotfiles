@@ -1,0 +1,2 @@
+alias ls='ls -FlaG'
+alias reload='exec $SHELL -l'
