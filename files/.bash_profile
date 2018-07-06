@@ -1,6 +1,7 @@
 # I don't know how PATH works and at this point I'm too afraid to ask
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="/usr/local/opt/gnupg/libexec/gpgbin:$PATH"
+export PATH="$HOME/Library/Haskell/bin:$PATH"
 export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
 
 # No idea
@@ -23,3 +24,5 @@ shopt -s cdspell;
 
 . ~/.aliases
 . ~/.bash-powerline.sh
+
+export PATH="$HOME/.cargo/bin:$PATH"
